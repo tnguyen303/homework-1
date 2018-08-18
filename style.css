@@ -1,0 +1,70 @@
+body{
+    height:100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("assets/bckgrnd.png");
+    background: linear-gradient(50% #969696)
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: #333333;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #333333;
+}
+.contact{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+p{
+    margin-left: 30px;
+    color: #333333;
+}
+.portrait{
+    border-radius: 50%;
+    border: solid 3px #2c5fa8;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-left: 30px;
+    padding-top: 30px;
+    color: #FFFFFF;
+    grid-column: span 3;
+    grid-row: span 1;
+}
+footer{
+    border: solid 10px white;
+}
+.top{
+    background-color: white:
+}
+.bottom{
+    background: rgba(150,150,150,0.6);
+    grid-template-rows: 30% 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display:grid
+}
+.pic{
+    width: 250px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-bottom: 20px;
+    grid-column: span 1;
+    grid-row: span 1;
+}
