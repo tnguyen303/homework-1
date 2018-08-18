@@ -2,7 +2,7 @@ body{
     height:100%;
     font-family: 'Open Sans', sans-serif;
     background-image: url("assets/bckgrnd.png");
-    background: linear-gradient(50% #969696)
+    background: linear-gradient(50% #969696);
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -50,13 +50,13 @@ footer{
     border: solid 10px white;
 }
 .top{
-    background-color: white:
+    background-color: white;
 }
 .bottom{
     background: rgba(150,150,150,0.6);
     grid-template-rows: 30% 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    display:grid
+    display:grid;
 }
 .pic{
     width: 250px;
